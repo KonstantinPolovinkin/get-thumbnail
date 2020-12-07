@@ -3,9 +3,9 @@
 function getPartUrl() {
   const url = window.location.href;
   if (!url.includes('m.youtube.com')) {
-    return (url.slice(url.indexOf('v=') + 1, url.indexOf('&')));
+    return (url.slice(url.indexOf('v=') + 2, url.indexOf('&')));
   } else {
-    return (url.slice(url.indexOf('v=') + 1, url.length + 1));
+    return (url.slice(url.indexOf('v=') + 2, url.length + 1));
   }
 
 }
