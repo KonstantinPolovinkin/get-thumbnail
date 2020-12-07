@@ -2,11 +2,7 @@
 
 function getPartUrl() {
   const url = window.location.href;
-  if (!url.includes('list')) {
-    return (url.slice(url.indexOf('=') + 1, url.indexOf('&')));
-  } else {
-    return (url.slice(url.lastIndexOf('=') + 1, url.length + 1));
-  }
+  return (url.slice(url.indexOf('v=') + 1, url.indexOf('&')));
 }
 
 function buildUrl() {
