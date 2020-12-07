@@ -1,0 +1,31 @@
+{
+  "name": "get-thumbnail",
+  "version": "1.0.0",
+  "description": "Allows to get thumbnail from videos on youtube.com",
+  "main": "script.js",
+  "scripts": {
+    "test": "eslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonstantinPolovinkin/get-thumbnail.git"
+  },
+  "keywords": [
+    "youtube.com",
+    "thumbnail"
+  ],
+  "author": "KonstantinPolovinkin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KonstantinPolovinkin/get-thumbnail/issues"
+  },
+  "homepage": "https://github.com/KonstantinPolovinkin/get-thumbnail#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-standard": "^16.0.2",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1"
+  }
+}

@@ -1,0 +1,1 @@
+Allows to get thumbnail from videos on youtube.com
