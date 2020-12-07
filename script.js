@@ -2,7 +2,12 @@
 
 function getPartUrl() {
   const url = window.location.href;
-  return (url.slice(url.indexOf('v=') + 1, url.indexOf('&')));
+  if (!url.includes('m.youtube.com')) {
+    return (url.slice(url.indexOf('v=') + 1, url.indexOf('&')));
+  } else {
+    return (url.slice(url.indexOf('v=') + 1, url.length + 1));
+  }
+
 }
 
 function buildUrl() {
